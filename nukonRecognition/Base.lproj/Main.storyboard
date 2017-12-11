@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H7h-se-yYk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Writing PracticeVC-->
+        <scene sceneID="rdR-S5-iMe">
+            <objects>
+                <viewController id="H7h-se-yYk" customClass="WritingPracticeVC" customModule="nukonRecognition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1G5-p1-9O1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="か" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6QA-kV-dub">
+                                <rect key="frame" x="112.5" y="55" width="151" height="179.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lL-9Z-JFX">
+                                <rect key="frame" x="284" y="582" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Correct">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="correctDrawing:" destination="H7h-se-yYk" eventType="touchUpInside" id="Vyb-oa-Cdx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLL-DX-45n">
+                                <rect key="frame" x="16" y="582" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="EqX-uJ-hod"/>
+                                    <constraint firstAttribute="width" constant="75" id="ePD-aX-QCn"/>
+                                </constraints>
+                                <state key="normal" title="Wrong">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="EqX-uJ-hod"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="wrongDrawing:" destination="H7h-se-yYk" eventType="touchUpInside" id="3A6-VG-RuY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uQ-Cu-QWG">
+                                <rect key="frame" x="16" y="232" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4uQ-Cu-QWG" firstAttribute="leading" secondItem="BLL-DX-45n" secondAttribute="leading" id="1jW-g8-mI2"/>
+                            <constraint firstItem="gtI-Zt-5eb" firstAttribute="bottom" secondItem="BLL-DX-45n" secondAttribute="bottom" constant="10" id="4zT-x1-lBE"/>
+                            <constraint firstItem="BLL-DX-45n" firstAttribute="height" secondItem="6lL-9Z-JFX" secondAttribute="height" id="5Ka-HE-efC"/>
+                            <constraint firstItem="gtI-Zt-5eb" firstAttribute="trailing" secondItem="6lL-9Z-JFX" secondAttribute="trailing" constant="16" id="7eX-wa-nik"/>
+                            <constraint firstItem="6lL-9Z-JFX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1G5-p1-9O1" secondAttribute="leading" constant="20" symbolic="YES" id="8ha-o4-uVf"/>
+                            <constraint firstItem="6QA-kV-dub" firstAttribute="top" secondItem="gtI-Zt-5eb" secondAttribute="top" constant="35" id="8mR-Qq-tfQ"/>
+                            <constraint firstItem="6QA-kV-dub" firstAttribute="centerX" secondItem="gtI-Zt-5eb" secondAttribute="centerX" id="Dgy-du-Tn6"/>
+                            <constraint firstItem="BLL-DX-45n" firstAttribute="leading" secondItem="gtI-Zt-5eb" secondAttribute="leading" constant="16" id="FPX-np-NFD"/>
+                            <constraint firstItem="gtI-Zt-5eb" firstAttribute="bottom" secondItem="6lL-9Z-JFX" secondAttribute="bottom" constant="10" id="Mit-LT-OTc"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BLL-DX-45n" secondAttribute="trailing" constant="20" symbolic="YES" id="NSH-1H-jh9"/>
+                            <constraint firstItem="BLL-DX-45n" firstAttribute="height" secondItem="4uQ-Cu-QWG" secondAttribute="height" id="Png-GL-ggp"/>
+                            <constraint firstItem="BLL-DX-45n" firstAttribute="top" secondItem="4uQ-Cu-QWG" secondAttribute="bottom" constant="275" identifier="clearButtonHeight" id="mjV-Hq-Jlx"/>
+                            <constraint firstItem="BLL-DX-45n" firstAttribute="width" secondItem="6lL-9Z-JFX" secondAttribute="width" id="mzG-eT-6AO"/>
+                            <constraint firstItem="BLL-DX-45n" firstAttribute="width" secondItem="6lL-9Z-JFX" secondAttribute="height" multiplier="4:4" id="u80-9F-a5E"/>
+                            <constraint firstItem="4uQ-Cu-QWG" firstAttribute="width" secondItem="BLL-DX-45n" secondAttribute="width" id="xhe-Db-CQf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gtI-Zt-5eb"/>
+                    </view>
+                    <connections>
+                        <outlet property="clearButton" destination="4uQ-Cu-QWG" id="KvQ-Hh-WIQ"/>
+                        <outlet property="correctButton" destination="6lL-9Z-JFX" id="4Zr-WW-pD5"/>
+                        <outlet property="wrongButton" destination="BLL-DX-45n" id="z6A-4U-N8s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycN-fr-Xxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1416.8" y="31.934032983508249"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7gh-nu-bDD">
+            <objects>
+                <viewController id="KBA-Wz-Tnf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eJt-rU-9vI" customClass="WritingPracticeView" customModule="nukonRecognition" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fBQ-Iu-Pgh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rGE-lF-kfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2506" y="32"/>
+        </scene>
+    </scenes>
+</document>

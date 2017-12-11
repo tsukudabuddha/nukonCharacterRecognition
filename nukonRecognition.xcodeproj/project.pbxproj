@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498DC8061FDDE1A700E1916C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DC8051FDDE1A700E1916C /* AppDelegate.swift */; };
+		498DC8111FDDE1A700E1916C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498DC80F1FDDE1A700E1916C /* Main.storyboard */; };
+		498DC8161FDDE1A700E1916C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498DC8141FDDE1A700E1916C /* LaunchScreen.storyboard */; };
+		498DC81E1FDDE3B800E1916C /* WritingPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DC81D1FDDE3B800E1916C /* WritingPracticeVC.swift */; };
+		AE066FA1245610A87754E8D4 /* Pods_nukonRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB10330206CF21E53E9F9C9B /* Pods_nukonRecognition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		498DC8021FDDE1A600E1916C /* nukonRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nukonRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		498DC8051FDDE1A700E1916C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		498DC8101FDDE1A700E1916C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		498DC8151FDDE1A700E1916C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		498DC8171FDDE1A700E1916C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498DC81D1FDDE3B800E1916C /* WritingPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPracticeVC.swift; sourceTree = "<group>"; };
+		A6E99E1B7CBDDD1F4AEBFB64 /* Pods-nukonRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nukonRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nukonRecognition/Pods-nukonRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0AC4A979D151F25D052CAB /* Pods-nukonRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nukonRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-nukonRecognition/Pods-nukonRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		DB10330206CF21E53E9F9C9B /* Pods_nukonRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nukonRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498DC7FF1FDDE1A600E1916C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE066FA1245610A87754E8D4 /* Pods_nukonRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498DC7F91FDDE1A600E1916C = {
+			isa = PBXGroup;
+			children = (
+				498DC8041FDDE1A600E1916C /* nukonRecognition */,
+				498DC8031FDDE1A600E1916C /* Products */,
+				F1A8895D69F0EE668ECF727E /* Pods */,
+				6DE23999E8532D583E9D0C7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		498DC8031FDDE1A600E1916C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498DC8021FDDE1A600E1916C /* nukonRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498DC8041FDDE1A600E1916C /* nukonRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				498DC8051FDDE1A700E1916C /* AppDelegate.swift */,
+				498DC81D1FDDE3B800E1916C /* WritingPracticeVC.swift */,
+				498DC80F1FDDE1A700E1916C /* Main.storyboard */,
+				498DC8141FDDE1A700E1916C /* LaunchScreen.storyboard */,
+				498DC8171FDDE1A700E1916C /* Info.plist */,
+			);
+			path = nukonRecognition;
+			sourceTree = "<group>";
+		};
+		6DE23999E8532D583E9D0C7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB10330206CF21E53E9F9C9B /* Pods_nukonRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A8895D69F0EE668ECF727E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6E99E1B7CBDDD1F4AEBFB64 /* Pods-nukonRecognition.debug.xcconfig */,
+				BE0AC4A979D151F25D052CAB /* Pods-nukonRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498DC8011FDDE1A600E1916C /* nukonRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498DC81A1FDDE1A700E1916C /* Build configuration list for PBXNativeTarget "nukonRecognition" */;
+			buildPhases = (
+				D3921D1ECD4F73E5D092CCA5 /* [CP] Check Pods Manifest.lock */,
+				498DC7FE1FDDE1A600E1916C /* Sources */,
+				498DC7FF1FDDE1A600E1916C /* Frameworks */,
+				498DC8001FDDE1A600E1916C /* Resources */,
+				C472F2B4B3755D32436E9407 /* [CP] Embed Pods Frameworks */,
+				4CDF36D8F60F72AAD2A2A17B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nukonRecognition;
+			productName = nukonRecognition;
+			productReference = 498DC8021FDDE1A600E1916C /* nukonRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498DC7FA1FDDE1A600E1916C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andrew Tsukuda";
+				TargetAttributes = {
+					498DC8011FDDE1A600E1916C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 498DC7FD1FDDE1A600E1916C /* Build configuration list for PBXProject "nukonRecognition" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 498DC7F91FDDE1A600E1916C;
+			productRefGroup = 498DC8031FDDE1A600E1916C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498DC8011FDDE1A600E1916C /* nukonRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498DC8001FDDE1A600E1916C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498DC8111FDDE1A700E1916C /* Main.storyboard in Resources */,
+				498DC8161FDDE1A700E1916C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CDF36D8F60F72AAD2A2A17B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nukonRecognition/Pods-nukonRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C472F2B4B3755D32436E9407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nukonRecognition/Pods-nukonRecognition-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACEDrawingView/ACEDrawingView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACEDrawingView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nukonRecognition/Pods-nukonRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3921D1ECD4F73E5D092CCA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nukonRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498DC7FE1FDDE1A600E1916C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498DC81E1FDDE3B800E1916C /* WritingPracticeVC.swift in Sources */,
+				498DC8061FDDE1A700E1916C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		498DC80F1FDDE1A700E1916C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498DC8101FDDE1A700E1916C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		498DC8141FDDE1A700E1916C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498DC8151FDDE1A700E1916C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		498DC8181FDDE1A700E1916C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		498DC8191FDDE1A700E1916C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498DC81B1FDDE1A700E1916C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E99E1B7CBDDD1F4AEBFB64 /* Pods-nukonRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTYUD7N245;
+				INFOPLIST_FILE = nukonRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsukudabuddha.nukonRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		498DC81C1FDDE1A700E1916C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0AC4A979D151F25D052CAB /* Pods-nukonRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTYUD7N245;
+				INFOPLIST_FILE = nukonRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsukudabuddha.nukonRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498DC7FD1FDDE1A600E1916C /* Build configuration list for PBXProject "nukonRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498DC8181FDDE1A700E1916C /* Debug */,
+				498DC8191FDDE1A700E1916C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498DC81A1FDDE1A700E1916C /* Build configuration list for PBXNativeTarget "nukonRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498DC81B1FDDE1A700E1916C /* Debug */,
+				498DC81C1FDDE1A700E1916C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498DC7FA1FDDE1A600E1916C /* Project object */;
+}
